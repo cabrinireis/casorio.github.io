@@ -1,0 +1,266 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+a:link{
+  color: initial;
+}
+a:visited{
+  color: initial;
+}
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+#banner {
+  background-image: url(/banner2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.container {
+  width: 100%;
+  position: relative;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 400px;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.nav-wrapper img {
+  max-width: 15%;
+  top: 8px;
+  position: absolute;
+}
+       
+.parallax {
+  background-image: url(/Untitled-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.listpresent {
+  background-image: url(/listaPresent.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.parallax-container .parallax #banner {
+  min-width: 21% !important;
+  bottom: -40px !important;
+  min-height: initial !important;
+  height: 300px;
+}
+.date{
+  position: absolute;
+    color: black;
+    top: 0;
+}
+#icondate{
+  position: absolute;
+  top: 0;
+  left: -25px;
+  }
+.icon {
+  right: 10px;
+}
+.icon span:nth-child(1) {
+  height:  5px;
+}
+.white{
+  position: fixed !important;
+  z-index: 1;
+}
+.teal {
+  background-color: #292929 !important;
+}
+.page-footer .footer-copyright {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+a[href="#top"]{
+  padding:10px;
+  position:fixed;
+  top: 90%;
+  right:40px;
+  display:none;
+  font-size: 30px;
+  background: #181818
+}
+a[href="#top"]:hover{
+  text-decoration:none;
+}
+
+@media screen and ( max-width: 425px){
+  .nav-wrapper img {
+    max-width: 34%;
+  }
+  .icon {
+    right: 10px;
+    top: 2px;
+  }
+}
+
+thead tr th {
+  text-align: left !important;
+}
+.card-presente  {
+  width: 100%;
+  height: auto;
+  box-shadow: #444 solid;
+}
+
+.waves img {
+  width: 43%;
+}
+.waves ul {
+  vertical-align: top;
+  margin-left: 21px;
+  display: inline-block;
+}
+.section .table-presente tr td.waves{
+  width: 30px;
+}
+.description{
+  text-align: left;
+  float: left;
+  margin-left: -25px;
+  /* width: 350px; */
+}
+.minus{
+  vertical-align: middle;
+    display: inline-block;
+    width: 22px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+.plus{
+  vertical-align: middle;
+    display: inline-block;
+    width: 22px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+#qtd1,
+#qtd{
+  vertical-align: middle;
+  display: inline-block;
+  width: 22px;
+  height: 23px;
+  line-height: 25px;
+  border-bottom: 0;
+  margin: 0;
+  text-align: center;
+}
+.inputqtd{
+  width: 270px;
+}
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+}
+
+.carrinho {
+  box-shadow: #444 2px 1px 2px 1px; 
+  margin-left: 50px !important;
+  position: absolute;
+  bottom: 0;
+  right: 15px !important;
+  min-height: 50%!important;
+}
+.table-presente{
+  position: relative;
+     
+}
+.table-presente th:nth-child(2){
+  width: 30%;
+}
+.table-presente th:nth-child(4){
+  width: 30%;
+}
+.table-presente th:nth-child(5){
+  width: 20%;
+}
+
+.table-shop tr,
+.table-shop td{
+  text-align: center;
+  border: 0;
+}
+.finishShop .title  {
+  background-color: #444;
+  padding: 2px;
+}
+.totalItem:nth-last-child(1) {
+  /* background-color: #26a69a; */
+  text-align: center;
+  /* padding: 15px; */
+  /* width: 20% !important; */
+}
+tfoot td {
+  text-align: right ;
+  padding-right: 50px;
+}
+tfoot tr{
+  border: 0;
+}
+.fulltotal{
+  color:rgb(110, 74, 5);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.btnpay{
+  float: right;
+  margin-right: 30px;
+}
+.btnpay .btn-large{
+  background-color: #292929;
+}
