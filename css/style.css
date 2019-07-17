@@ -154,7 +154,7 @@ thead tr th {
 }
 
 .waves img {
-  width: 43%;
+  width: 100%;
 }
 .waves ul {
   vertical-align: top;
@@ -167,7 +167,7 @@ thead tr th {
 .description{
   text-align: left;
   float: left;
-  margin-left: -25px;
+  /* margin-left: -25px; */
   /* width: 350px; */
 }
 .minus{
@@ -180,7 +180,7 @@ thead tr th {
     cursor: pointer;
 }
 .plus{
-  vertical-align: middle;
+  /* vertical-align: middle; */
     display: inline-block;
     width: 22px;
     height: 25px;
@@ -263,4 +263,40 @@ tfoot tr{
 }
 .btnpay .btn-large{
   background-color: #292929;
+  z-index: 0;
+}
+.obs {
+  float: right;
+  text-align: right;
+  margin-right: 5px;
+  font-style: italic;
+}
+.modal-footer {
+  text-align: center !important;
+}
+.boleto {
+  float: right;
+}
+
+.bancos {
+  padding-top: 20px;
+}
+.banco img{
+  max-width: 50%;
+}
+.banks_row {
+  width: 80%;
+}
+.card{
+  box-shadow: none;
+}
+#rowbank{
+  box-shadow: inset 2px 0px 0px 0px #3333332e;
+}
+.formPay,
+.transferencia {
+  display: none;
+}
+.submit .btn-large {
+  background-color: #656565;
 }

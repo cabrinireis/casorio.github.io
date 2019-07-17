@@ -1,9 +1,8 @@
 (function($){
   $(document).ready(function(){
-   
     $('.modal').modal();
-  
   })
+ 
   $(function(){
 
     $('.sidenav').sidenav();
@@ -208,5 +207,16 @@ function minustotal () {
     console.log(nova,'k')
   }
   soma.innerHTML = nova
-}
+} 
+document.querySelector('.transf').addEventListener('click', function(){
+  document.querySelector('#footer_01').classList.add("hide");
+  document.querySelector('.transferencia').classList.add('show-on-extra-large')
+  document.querySelector('.totalcompra').innerHTML = 'R$ '+ document.querySelector('.fulltotal').innerText
+})
+
+document.querySelector('.boleto').addEventListener('click', function(){
+  document.querySelector('#footer_01').classList.add("hide");
+  document.querySelector('.formPay').classList.add('show-on-extra-large')
+  // document.querySelector('.fulltotal').innerText
+})
 

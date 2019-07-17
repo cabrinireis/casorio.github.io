@@ -41,7 +41,7 @@
     <div class="container row">
         <div class="section col m12">
             <!--   Icon Section   -->
-            <table class="table-presente ">
+            <table class="table-presente striped">
                 <thead>
                     <tr>
                         <th colspan="0">Presente</th>
@@ -54,7 +54,7 @@
                 <tbody>
                     <tr id="product01" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="img/jkD.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -85,7 +85,7 @@
                     </tr>
                     <tr id="product02" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="img/jkD.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -117,7 +117,7 @@
                     </tr>
                     <tr id="product03" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="img/jkD.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -148,7 +148,7 @@
                     </tr>
                     <tr id="product04" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="img/jkD.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -179,7 +179,7 @@
                     </tr>
                     <tr id="product05" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="img/42425175_1GG.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -210,7 +210,7 @@
                     </tr>
                     <tr id="product06" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="img/jkD.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -242,7 +242,7 @@
 
                     <tr id="product07" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="./img/jkD.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -275,7 +275,7 @@
 
                     <tr id="product08" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="./img/fire.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -306,7 +306,7 @@
                     </tr>
                     <tr id="product09" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="./img/honey.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -337,7 +337,7 @@
                     </tr>
                     <tr id="product10" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="./img/gentlem.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -368,7 +368,7 @@
                     </tr>
                     <tr id="product11" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="./img/singleBar.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -397,9 +397,9 @@
                             </span>
                         </td>
                     </tr>
-                    <tr id="product11" class="pdr">
+                    <tr id="product12" class="pdr">
                         <td id="wave" class="waves" colspan="0">
-                            <img src="shopp1.jpg">
+                            <img src="./img/sinatra.webp">
                         </td>
                         <td class="description">
                             <ul>
@@ -439,9 +439,16 @@
                 </tfoot>
             </table>
             <div class="btnpay">
-
                 <a class="waves-effect waves-light btn-large modal-trigger" href="#demo-modal"><i
                         class="material-icons left">shopping_cart</i>FINALIZAR</a>
+            </div>
+            <div class="obs">
+                <div>
+                    <span>Obs: o pagamento podera sere feito por depósito, via boleto ou transferencia</span>
+                </div>
+                <div>
+                    <span>para uma das Contas disponibilizadas</span>
+                </div>
             </div>
         </div>
     </div>
@@ -450,46 +457,113 @@
     <div id="demo-modal" class="modal">
         <div class="modal-content container">
             <div class="row">
-                <form class="col s12 m12">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                            <label for="first_name">First Name</label>
-                        </div>
-                        <div class="input-field col s6">
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Last Name</label>
+                <div class="col m12">
+                    <div class="col m6">
+                        <div class="boleto">
+                            <a class="modal-close waves-effect waves-light btn-large boleto">BOLETO</a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                            <label for="disabled">Disabled</label>
+                    <div class="col m6">
+                        <div class="">
+                            <a class="modal-close waves-effect waves-light btn-large transf">TRANSFERENCIA</a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="password" type="password" class="validate">
-                            <label for="password">Password</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
-                        </div>
-                    </div>
-                </form>
+                </div>
+
             </div>
         </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-red btn red lighten-1">Close</a>
+        <div class="modal-footer center">
+            <a href="#!" class="modal-action modal-close waves-effect waves-red btn red lighten-1">CANCELAR </a>
         </div>
     </div>
 
+    <!-- modal footer-->
+
+
+
     </div>
     </div>
-    <div class="parallax-container valign-wrapper">
+    <div class="formPay container">
+        <form class="col s12 m12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <label for="first_name">Nome Completo</label>
+                </div>
+                <div class="input-field col s6">
+                        <i class="material-icons prefix">image_aspect_ratio</i>
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">CPF</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="telefone" type="tel" class="validate">
+                    <label for="telefone">Telefone</label>
+                </div>
+                <div class="submit center">
+                        <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                              </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="transferencia">
+        <div class="row">
+            <div class="col m12">
+                <h3>Total da compra: <span class="totalcompra"></span></h3>
+
+            </div>
+        </div>
+        <div class="container bancos">
+            <div class="container backs_row row">
+                <div class="section col m4 card" id="rowbank">
+                    <div class="banco center">
+                        <img src="./img/caixa economica.png" alt="">
+                    </div>
+                    <div class="card-content center">
+                        <p>Ag. 6767 </p>
+                        <p>Conta corrente: 03027-0 </p>
+                        <p>Nome: E L Gregorin Sant’Ana Informática - ME </p>
+                        <p>CNPJ: 10.464.003/0001-30 </p>
+                    </div>
+                </div>
+                <div class="section col m4 card">
+                    <div class="banco center">
+                        <img src="./img/bradesco.png" alt="">
+                    </div>
+                    <div class="card-content center">
+                        <p>Ag. 6767 </p>
+                        <p>Conta corrente: 03027-0 </p>
+                        <p>Nome: E L Gregorin Sant’Ana Informática - ME </p>
+                        <p>CNPJ: 10.464.003/0001-30 </p>
+                    </div>
+                </div>
+                <div class="section col m4 card">
+                    <div class="banco center">
+                        <img src="./img/bancodobrasil.png" alt="">
+                    </div>
+                    <div class="card-content center">
+                        <p>Ag. 6767 </p>
+                        <p>Conta corrente: 03027-0 </p>
+                        <p>Nome: E L Gregorin Sant’Ana Informática - ME </p>
+                        <p>CNPJ: 10.464.003/0001-30 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container valign-wrapper" id="footer_01">
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
@@ -498,7 +572,7 @@
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="/Untitled-5.png" alt="Unsplashed background img 3"></div>
+        <div class="parallax" id="parallax_footer"><img src="/Untitled-5.png" alt="Unsplashed background img 3"></div>
     </div>
 
     <footer class="page-footer teal">
